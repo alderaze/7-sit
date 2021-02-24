@@ -1,0 +1,74 @@
+$color-border:hsl(0, 94%, 66%);
+$color-h1:hsl(229, 31%, 21%);
+$color-p:hsl(229, 8%, 60%);
+$color-ground:hsl(231, 69%, 60%);
+$grid:12;
+
+
+
+.container{
+    position: relative;
+    width: 80%;
+    margin: auto;
+
+   
+    
+}
+
+.over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2f354f;
+    z-index: -1;
+    opacity: .9;
+    position: fixed;
+}
+
+.h1{
+ 
+        color: $color-h1;
+        font-size: 41px;
+        font-weight: bolder;
+        text-transform: capitalize;
+}
+.text-center{
+    text-align: center;
+}
+.d-flex{
+
+    display: flex;
+   
+}
+.justfily-content-between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.flex-wrap{
+
+    flex-wrap: wrap;
+}
+.justfily-content-around{
+    display: flex;
+    justify-content: space-around;
+}
+.justfily-content-center{
+    display: flex;
+    justify-content: center;
+}
+.justfily-content-start{
+    display: flex;
+    justify-content:flex-start;
+}
+.justfily-content-end{
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+.list-none{
+    list-style: none;
+}

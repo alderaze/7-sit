@@ -1,0 +1,12 @@
+@for $i from 1 to $grid {
+
+    .col-#{$i}{
+
+        width: (100%/($grid/$i));
+        box-sizing: border-box;
+        float: left;
+        padding: 0 15px;
+
+    }
+    
+}

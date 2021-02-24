@@ -1,0 +1,95 @@
+// mixin for prefix
+@mixin pref($var1,$var...){
+  
+    -webkit-#{$var1}:$var;
+     -o-#{$var1}:$var;
+     -moz-#{$var1}:$var;
+     -ms-#{$var1}:$var;
+     #{$var1}:$var;
+
+     // @include (transition,all 1s ease)مثال
+     
+  
+  }
+
+// mixin for animation
+  @mixin animate($name) {
+    @-webkit-keyframes #{$name}{ @content };
+    @-o-keyframes #{$name}{ @content };
+    @-moz-keyframes #{$name} { @content };
+    @-ms-keyframes #{$name}{ @content };
+    @keyframes #{$name}{ @content };
+     // @include animate(nameanimation){    //مثال
+
+        //content المحتوى
+     //}
+  }
+
+
+// mixin for media
+
+@mixin media-lg{
+    @media (min-width:1106px) {
+
+        @content;
+    }
+}
+@mixin media-lg2{
+    @media (min-width:1080px) {
+
+        @content;
+    }
+}
+
+
+@mixin media-media{
+    @media (min-width:992px) {
+
+        @content;
+    }
+}
+@mixin media-media2{
+    @media (max-width:992px) {
+
+        @content;
+    }
+}
+@mixin media-lap{
+    @media  (max-width:769px) {
+
+        @content;
+    }
+}
+
+@mixin media-small{
+    @media (min-width:769px) {
+
+        @content;
+    }
+}
+
+
+@mixin media-small2{
+    @media (max-width:768px) {
+
+        @content;
+    }
+}
+
+
+@mixin media-mobile{
+    @media (max-width:576px) {
+
+        @content;
+    }
+}
+@mixin media-mobile2{
+    @media (min-width:576px) {
+
+        @content;
+    }
+}
+
+
+
+

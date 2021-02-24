@@ -1,0 +1,63 @@
+body {
+  background-color: #031336;
+  height: 5000px;
+}
+
+body .navbarr {
+  height: 50px;
+  padding: 20px;
+  background-color: transparent;
+  position: relative;
+  color: #fff !important;
+  font-weight: bold !important;
+  text-transform: capitalize;
+}
+
+body .navbarr .container {
+  position: relative;
+  width: 95%;
+}
+
+body .navbarr .container .tit {
+  position: absolute;
+  left: 0;
+}
+
+body .navbarr .container .tit img {
+  width: 158px;
+}
+
+body .navbarr .container .iii {
+  position: absolute;
+  font-size: 24px;
+  right: 180px;
+  padding-top: 8px;
+}
+
+body .navbarr .min-nav {
+  width: auto;
+  float: right;
+  padding-top: 8px;
+  margin-right: 100px;
+  text-align: right !important;
+}
+
+body .navbarr .min-nav li {
+  margin-left: 20px;
+}
+
+body .navbarr .min-nav li a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+body .navbarr .btn {
+  width: 130px;
+  color: #fff;
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+  float: right;
+  background-color: #456cc1;
+}
